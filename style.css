@@ -7,12 +7,21 @@ body {
 }
 h1 {
     text-align: center;
+    font-size:50px;
     background: '#ebebeb';
+    border: 1px solid black;
+    padding: 25px;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
 }
 
-.none {
-    margin: 0;
-    padding: 20px;
+nav {
+    margin-top: -10px;
+    padding: 25px;
     border: 1px solid black;
     text-align:right;
 }
@@ -28,9 +37,23 @@ h1 {
 section {
     border: 1px solid black;
     width: 495px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 article {
     color: '#ebebeb';
     background: '#777';
+}
+aside {
+    border: 1px solid black;
+    margin-top: 10px;
+    width: 550px;
+    
+}
+.name {
+    text-align: left;
+    font-size: 30px;
+    background-color: red;
+    display:inline;
+    margin-right:50%;
+    padding:25px;
 }
