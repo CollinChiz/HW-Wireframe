@@ -8,12 +8,14 @@ body {
 h1 {
     text-align: center;
     font-size:50px;
+    color: #777;
     background: #ebebeb;
     border: 1px solid black;
     padding: 25px;
 }
 h2 {
     text-align: center;
+    display:inline;
 }
 h3 {
     text-align: center;
@@ -45,13 +47,17 @@ section {
 article {
     color: #ebebeb;
     background: #777;
-    margin-left: 10px;
-    margin-right:10px;
+    margin: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    overflow:auto;
 }
+
 aside {
     border: 1px solid black;
     margin-top: 30px;
     width: 430px;
+    height:782px;
     float:left;
     margin-left: 30px;
     background: #ebebeb;
@@ -60,16 +66,56 @@ aside {
 .name {
     text-align: left;
     font-size: 30px;
-    margin-right:300px;
-    background-color: red;
+    margin-right:325px;
+    background-color: black;
     display:inline;
     padding:25px;
 }
 header {
     background: #ebebeb;
 }
+.clearfix:after {
+    content: "";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
 footer{
     background: #ebebeb;
+    padding: 40px;
+    margin-top:30px;
+    margin-bottom: 50px;
+}
+p {
+    color: #777;
+    background: #ebebeb;
+}
+.paragraph {
+    margin:20px;
+}
+.bio {
+    background: #ebebeb;
+    color: #777;
+    margin-top:50px;
+    margin: 20px;
+    text-align: center;
+}
+img {
+    height: 365px;
+    width: 330px;
+    border: 5px solid black;
+    margin: 10px;
+    margin-left: 75px;
+}
+.img2 {
+    margin-left: 45px;
+}
+.image2 {
+    margin-top: 93px;
+}
+.facts {
     border: 1px solid black;
-    padding:25px;
+    margin: 10px;
+    padding-bottom: 50px;
 }
